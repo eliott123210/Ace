@@ -1,0 +1,29 @@
+.button_box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+	z-index: 2;	
+}
+.button_blue{
+    color:#FFF;
+    display:block;
+    text-decoration:none;
+    border-radius:5px;
+    background:$cold_blue;
+    border: none;
+    padding: 8px;
+    transition-duration: 0.3s;
+    min-width: 120px;
+    outline-style: none;
+}
+.button_blue:hover {
+	background: rgba(10, 107, 255, 1);
+	transition-duration: 0.3s;
+    outline-style: none;
+}
+.button_blue:active {
+	background: rgba(2, 81, 255, 1);
+	transition-duration: 0.3s;
+    outline-style: none;
+}

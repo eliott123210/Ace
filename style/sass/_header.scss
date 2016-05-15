@@ -1,0 +1,21 @@
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: $background_blue;
+	border-bottom: 2px solid $cold_blue; 
+	z-index: 1;
+}
+.menu_display {
+	display: inline-flex;
+}
+.logo_img {
+	margin-top: 10px;
+	margin-bottom: 10px;  
+}
+.menu_link {
+	color: $white;
+	font-family: 'lobster', Arial;
+	font-size: 20px;
+	margin-left: 20px;
+}

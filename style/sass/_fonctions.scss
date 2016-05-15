@@ -1,0 +1,17 @@
+.absolute {
+	position: absolute;
+}
+.fixed {
+	position: fixed;
+}
+.relative {
+	position: relative;
+}
+.margin_auto {
+	margin: auto;
+}
+.centered {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
