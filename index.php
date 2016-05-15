@@ -17,7 +17,7 @@
 		        <form class="questions" method="post" action="home.html">
                     <?php
                     $repeat = 1;
-                    while ($repeat<=100) 
+                    while ($repeat<=10) 
                     {
                     ?>    
 			        <div class="qcm">

@@ -265,6 +265,42 @@
   outline-style: none;
 }
 
+/* line 30, ../sass/_forms.scss */
+.form_admin {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  -webkit-border-radius: 17px;
+  -moz-border-radius: 17px;
+  -ms-border-radius: 17px;
+  border-radius: 17px;
+  padding: 2%;
+  border: 1px solid #0081ff;
+  min-width: 150px;
+}
+
+/* line 40, ../sass/_forms.scss */
+.user_entry {
+  margin-bottom: 10px;
+  background: #152637;
+  border: 1px solid #0081ff;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px;
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  box-shadow: none;
+}
+
+/* line 51, ../sass/_forms.scss */
+.user_entry:focus {
+  box-shadow: 0 0 1px #0081ff;
+  outline: none;
+}
+
 /* line 1, ../sass/_reset.scss */
 .reset_link {
   text-decoration: none;
