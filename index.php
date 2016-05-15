@@ -11,14 +11,16 @@
         <!-- Header -->
         <?php
 	        include('header.php');
-	        ?>
+        ?>
 	        <!-- Content -->
         <article class="content width_90 left_5 absolute">
 		        <form class="questions" method="post" action="home.html">
 			        <div class="qcm">
 				        
 		        		<div class="title width_100">
-			        		<h1>QCM 1 : Concernant la  méiose, donnez la(les) réponse(s) exacte(s) :</h1>
+			        		<h1><?php 
+                                $qcmNumber = 1;
+                                echo 'QCM ' . $qcmNumber . ' '?>: Concernant la  méiose, donnez la(les) réponse(s) exacte(s) :</h1>
 			        	</div>
 			        	<div class="item">
 				        	<input type="checkbox" name="A" id="A" class="item"/>
