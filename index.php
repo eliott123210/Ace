@@ -15,11 +15,16 @@
 	        <!-- Content -->
         <article class="content width_90 left_5 absolute">
 		        <form class="questions" method="post" action="home.html">
+                    <?php
+                    $repeat = 1;
+                    while ($repeat <=100) 
+                    {
+                    ?>    
 			        <div class="qcm">
 				        
 		        		<div class="title width_100">
 			        		<h1><?php 
-                                $qcmNumber = 1;
+                                $qcmNumber = $repeat;
                                 echo 'QCM ' . $qcmNumber . ' '?>: Concernant la  méiose, donnez la(les) réponse(s) exacte(s) :</h1>
 			        	</div>
 			        	<div class="item">
@@ -43,6 +48,10 @@
 							<label for="E" class="label"> E - Elle a lieu uniquement dans les gonades.</label>
 						</div>
 					</div>
+                    <?php 
+                        $repeat++;
+                    }
+                    ?>
 					<div class="button_box">
 						<input type="button" value="Envoyer" class="button_blue width_15" id="button"/>
 					</div>
